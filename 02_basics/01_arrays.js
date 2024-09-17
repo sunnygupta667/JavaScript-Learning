@@ -8,12 +8,25 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // Array methods
 
-// myArr.push(6)
+//The push() method adds new items to the end of an array.
+// The push() method changes the length of the array.
+// The push() method returns the new length.
+// myArr.push(6) 
 // myArr.push(7)
+
+
+// The pop() method removes (pops) the last element of an array.
+// The pop() method changes the original array.
+// The pop() method returns the removed element.
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+
+//The unshift() method adds new elements to the beginning of an array.
+// The unshift() method overwrites the original array.
+console.log(myArr.unshift(9))
+
+
+console.log(myArr.shift())
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
